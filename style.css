@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+body {
+	height: 100vh;
+    width:auto;
+
+	background-color: #f3f3f3;
+	
+}
+
+/* .overlap{
+    display:flex;
+    flex-wrap: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #264653;
+   position: relative;
+   height: 5.25rem;
+    width: 5.25rem;
+ 
+} */
+
+.card {
+    display: flex;
+  
+}
+.first_card {
+    position: relative;
+    bottom: 0;
+   
+	height: 5.25rem;
+}
+
+.second_card {
+    position: relative;
+    top: -50px;
+    right: -150px;
+	height: 5.25rem;
+
+	
+}
