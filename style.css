@@ -1,17 +1,40 @@
-* {
-	margin: 0;
-	padding: 0;
-	
-}
-
-
-
 body {
-	height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+	/* height: 100vh;
     width:auto;
 
-	background-color: #f3f3f3;
-	
+	background-color: #f3f3f3; */
+}
+
+#opponent-cards img {
+	height: 175px;
+	width: 125px;
+	margin: 1px;
+}
+#your-cards img {
+	height: 175px;
+	width: 125px;
+	margin: 1px;
+}
+
+#bet {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#check {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#fold {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
 }
 
 /* .overlap{
@@ -24,7 +47,7 @@ body {
    height: 5.25rem;
     width: 5.25rem;
  
-} */
+} 
 
 .card {
     display: flex;
@@ -45,3 +68,5 @@ body {
 
 	
 }
+
+*/

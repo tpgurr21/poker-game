@@ -5,15 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Poker Game</title>
 		<link rel="stylesheet" href="style.css" />
+		<script src="pokergame.js"></script>
 	</head>
+
 	<body>
-		<div class="overlap">
-			<div class="card first_card">
-				<img src="card.jpg" alt="card" />
-			</div>
-			<div class="card second_card">
-				<img src="card.jpg" alt="card" />
-			</div>
+		<h2>Opponent</h2>
+		<div id="opponent-cards">
+			<img id="hidden" src="./cards/BACK.png" />
+			<img id="hidden" src="./cards/BACK.png" />
+			
 		</div>
+
+		<h2>You</h2>
+		<div id="your-cards">
+			<img src="./cards/BACK.png" />
+			<img src="./cards/BACK.png" />
+		</div>
+
+		<br />
+		<button id="bet">Bet</button>
+		<button id="check">Check</button>
+		<button id="fold">Fold</button>
+		<p id="results"></p>
 	</body>
 </html>
